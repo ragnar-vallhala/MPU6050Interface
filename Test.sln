@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test.vcxproj", "{85C51F08-6585-4363-A397-4F93D24CDC9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MPU6050-0.6.0", "Libraries\MPU6050\0.6.0\MPU6050\MPU6050-0.6.0.vcxitems", "{A8861F53-990F-425F-BCBF-A1E5971AEC96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wire-1.0", "Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems", "{1C6AE17C-3942-4850-ACA2-29780A40977D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|ARM.Build.0 = Debug|ARM
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|ARM.Deploy.0 = Debug|ARM
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|ARM64.Build.0 = Debug|ARM64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|x64.ActiveCfg = Debug|x64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|x64.Build.0 = Debug|x64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|x64.Deploy.0 = Debug|x64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|x86.ActiveCfg = Debug|x86
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|x86.Build.0 = Debug|x86
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Debug|x86.Deploy.0 = Debug|x86
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|ARM.ActiveCfg = Release|ARM
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|ARM.Build.0 = Release|ARM
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|ARM.Deploy.0 = Release|ARM
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|ARM64.ActiveCfg = Release|ARM64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|ARM64.Build.0 = Release|ARM64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|ARM64.Deploy.0 = Release|ARM64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|x64.ActiveCfg = Release|x64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|x64.Build.0 = Release|x64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|x64.Deploy.0 = Release|x64
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|x86.ActiveCfg = Release|x86
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|x86.Build.0 = Release|x86
+		{85C51F08-6585-4363-A397-4F93D24CDC9A}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A252C47-5161-447E-9CE8-07085E320744}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems*{1c6ae17c-3942-4850-aca2-29780a40977d}*SharedItemsImports = 9
+		Libraries\MPU6050\0.6.0\MPU6050\MPU6050-0.6.0.vcxitems*{85c51f08-6585-4363-a397-4f93d24cdc9a}*SharedItemsImports = 4
+		Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems*{85c51f08-6585-4363-a397-4f93d24cdc9a}*SharedItemsImports = 4
+		Libraries\MPU6050\0.6.0\MPU6050\MPU6050-0.6.0.vcxitems*{a8861f53-990f-425f-bcbf-a1e5971aec96}*SharedItemsImports = 9
+	EndGlobalSection
+EndGlobal
